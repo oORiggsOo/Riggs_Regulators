@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One');
 
 * {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Days One', sans-serif;
+}
+
+a {
+    text-decoration: underline;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+
+/* Utility*/
+.logo-img {
+    width: 70px;
+    padding: 4px;
+}
+
+.text-primary {
+
 }
