@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 p {
@@ -19,12 +19,38 @@ p {
 }
 
 
-/* Utility*/
-.logo-img {
-    width: 70px;
-    padding: 4px;
-}
+/* Utility Classes*/
+
 
 .text-primary {
+     color: #ffc900;
+     align-self: center;
+}
 
+/* Navbar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #6b6c75;
+    color: #ffffff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar .logo-img {
+    width: 70px;
+    padding: 1px;
+}
+
+#navbar ul {
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #ffffff;
+    padding: 0.75rem;
 }
