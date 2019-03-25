@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Days One', sans-serif;
+    line-height: 1.4;
 }
 
 a {
@@ -20,6 +21,17 @@ p {
 
 
 /* Utility Classes ------------------*/
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .text-primary {
      color: #ffc900;
 
@@ -27,6 +39,12 @@ p {
 
 .l-heading {
     font-size: 3rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
@@ -43,6 +61,23 @@ p {
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
+}
+
+.btn:hover {
+    background: #d29f00;
+}
+
+/* Padding's ------------------------*/
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
 }
 
 /* Navbar ---------------------------*/
@@ -101,9 +136,28 @@ p {
     position: absolute;
     top: 64px;
     left:0;
+    right: 0;
     background-color: rgba(0,0,0,0.4);
 }
 
+/* What We're Offering-----------------*/
+#what .items {
+    display: flex;
+    padding: 1rem ;
+}
+
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i {
+    background: #ffc900;
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
 
 
 
