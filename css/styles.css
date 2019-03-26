@@ -19,7 +19,6 @@ p {
     margin: 0.75rem 0;
 }
 
-
 /* Utility Classes ------------------*/
 .container {
     max-width: 1100px;
@@ -149,6 +148,7 @@ p {
 
 
 /* What -----------------------------*/
+
 #what .items {
     display: flex;
     padding: 1rem ;
