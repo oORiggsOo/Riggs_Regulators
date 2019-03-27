@@ -27,6 +27,10 @@ p {
     overflow: hidden;
 }
 
+.logo-img2 {
+    width: 100px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -34,6 +38,16 @@ p {
 .text-primary {
      color: #ffc900;
 
+}
+
+.bg-light {
+    background: #f4f4f4f4;
+    color: #333333;
+}
+
+.bg-dark {
+    background: #333333;
+    color: #ffffff;
 }
 
 .l-heading {
@@ -154,6 +168,8 @@ p {
 center top/cover;
     height: 50vh;
 }
+
+
 
 
 
