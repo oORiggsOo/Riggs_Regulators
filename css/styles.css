@@ -16,7 +16,7 @@ a {
 }
 
 p {
-    margin: 0.75rem 0;
+    margin: 0.75rem .25rem;
 }
 
 /* Utility Classes ------------------*/
@@ -28,7 +28,8 @@ p {
 }
 
 .logo-img2 {
-    width: 100px;
+    width: 75px;
+
 }
 
 .text-center {
@@ -36,7 +37,7 @@ p {
 }
 
 .text-primary {
-     color: #ffc900;
+    color: #ffc900;
 
 }
 
@@ -48,6 +49,16 @@ p {
 .bg-dark {
     background: #333333;
     color: #ffffff;
+}
+
+.list {
+    margin: 0.2rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #b7b7b7 dotted 1px;
 }
 
 .l-heading {
@@ -93,6 +104,18 @@ p {
     padding: 3rem 0;
 }
 
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
 /* Navbar ---------------------------*/
 #navbar {
     display: flex;
@@ -106,7 +129,7 @@ p {
 }
 
 #navbar .logo-img {
-    display:flex;
+    display: flex;
     align-items: flex-end;
     width: 70px;
     height: 32px;
@@ -114,7 +137,7 @@ p {
 }
 
 #navbar ul {
-    display:flex;
+    display: flex;
     align-items: center;
     list-style: none;
 }
@@ -131,11 +154,10 @@ p {
 
 /* ShowCase -------------------------*/
 #showcase {
-    background: #333333 url("../img/future-war-wallpapers-mobile-On-wallpaper-hd.jpg")
-    no-repeat center center/cover;
+    background: #333333 url("../img/future-war-wallpapers-mobile-On-wallpaper-hd.jpg") no-repeat center center/cover;
     height: 100vh;
     color: #ffffff;
-   
+
 }
 
 #showcase .showcase-content {
@@ -148,10 +170,10 @@ p {
     padding: 2rem;
     position: absolute;
     top: 65px;
-    left:0;
+    left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Who ------------------------------*/
@@ -164,21 +186,16 @@ p {
 }
 
 #who .who-img {
-    background: url("../img/whoWe.jpg") no-repeat
-center top/cover;
+    background: url("../img/whoWe.jpg") no-repeat center top/cover;
     height: 50vh;
 }
-
-
-
-
 
 
 /* What -----------------------------*/
 
 #what .items {
     display: flex;
-    padding: 1rem ;
+    padding: 1rem;
 }
 
 #what .items .item {
@@ -194,7 +211,18 @@ center top/cover;
     margin-bottom: 1rem;
 }
 
+/* Sponsors --------------------------*/
+#sponsors .items{
+    display: flex;
 
+}
+
+#sponsors .items img {
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+}
 
 
 
