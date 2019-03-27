@@ -152,6 +152,7 @@ p {
 #who .who-img {
     background: url("../img/whoWe.jpg") no-repeat
 center top/cover;
+    height: 50vh;
 }
 
 
