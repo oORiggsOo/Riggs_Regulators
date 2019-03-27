@@ -133,16 +133,26 @@ p {
     height: 100%;
     padding: 2rem;
     position: absolute;
-    top: 64px;
+    top: 65px;
     left:0;
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.4);
 }
 
-/* Who */
+/* Who ------------------------------*/
+#who {
+    display: flex;
+}
 
+#who div {
+    flex: 1;
+}
 
+#who .who-img {
+    background: url("../img/whoWe.jpg") no-repeat
+center top/cover;
+}
 
 
 
