@@ -225,25 +225,16 @@ p {
 }
 
 #when {
-    background: #333333 url("../img/standingTall.png") no-repeat center top/cover;
-    height: 75vh;
-    color: #ffffff;
-
+    display: flex;
 }
 
-#when .when-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 2rem;
-    top: 64px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+#when div {
+    flex: 1;
+}
+
+#when .when-img {
+    background: url("../img/standingTall.png") no-repeat center top/cover;
+    height: 25vh;
 }
 
 
