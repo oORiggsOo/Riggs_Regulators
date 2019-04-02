@@ -243,7 +243,7 @@ p {
 #Game-imgs .items{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #Game-imgs .items img {
