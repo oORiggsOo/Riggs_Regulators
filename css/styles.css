@@ -50,6 +50,10 @@ p {
     background: #333333;
     color: #ffffff;
 }
+.bg-primary {
+    background: #ffc900;
+    color: #000000;
+}
 
 .list {
     margin: 0.2rem 0;
@@ -80,7 +84,7 @@ p {
 
 .btn {
     display: inline-block;
-    color: #000000;
+    color: #4a4a4a;
     background: #ffc900;
     padding: 0.5rem 2rem;
     border: none;
@@ -89,6 +93,11 @@ p {
 
 .btn:hover {
     background: #d29f00;
+}
+
+.btn-dark {
+    background: #333333;
+    color: #ffffff;
 }
 
 /* Padding's ------------------------*/
@@ -224,6 +233,7 @@ p {
     width: 60%;
 }
 
+/* When ------------------------------*/
 #when {
     display: flex;
 }
@@ -237,9 +247,7 @@ p {
     height: 50vh;
 }
 
-/* Sponsors --------------------------*/
-
-
+/* Game Galleries --------------------------*/
 #Game-imgs .items{
     display: flex;
     flex-wrap: wrap;
@@ -253,7 +261,28 @@ p {
     width: 200px;
 }
 
+/* Contact & map ---------------------------*/
+#contact {
+    display: flex;
+}
+#contact .map, #contact .contact-form {
+    flex: 1;
+}
+#contact .contact-form .form-group {
+    margin: 0.75rem;
 
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+
+}
 
 
 
