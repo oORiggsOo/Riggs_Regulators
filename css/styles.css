@@ -237,7 +237,21 @@ p {
     height: 50vh;
 }
 
+/* Sponsors --------------------------*/
 
+
+#Game-imgs .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#Game-imgs .items img {
+    display: block;
+    align-items: baseline;
+    margin: auto;
+    width: 200px;
+}
 
 
 
