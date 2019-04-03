@@ -176,7 +176,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 2rem;
+    padding: 0 2rem;
     position: absolute;
     top: 65px;
     left: 0;
