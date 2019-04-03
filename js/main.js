@@ -6,5 +6,5 @@ function initMap() {
     zoom: 14,
     center: loc
       });
-const marker = new google.maps.marker({ position: loc, map:map});
+const marker = new google.maps.Marker({ position: loc, map:map});
 }
