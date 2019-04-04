@@ -20,7 +20,7 @@ window.addEventListener('scroll', function() {
 });
 
 // Smooth Scroll
-$('#navbar a, .btn').on('click', function(event) {
+$('#navbar a').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 
