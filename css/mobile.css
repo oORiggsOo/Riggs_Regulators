@@ -1,0 +1,18 @@
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+
+
+/*Align icon to Left ------------------------*/
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Position icons ---------------------------*/
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
