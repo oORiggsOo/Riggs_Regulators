@@ -12,7 +12,7 @@ const marker = new google.maps.Marker({ position: loc, map:map});
 // Sticky Menu Background
 
 window.addEventListener('scroll', function() {
-  if (window.scrollY > 150) {
+  if (window.scrollY > 140) {
     document.querySelector('#navbar').style.opacity = 0.9;
       } else {
     document.querySelector('#navbar').style.opacity = 1;
